@@ -2,14 +2,11 @@ Administrator
 _docs
 acess
 admin
-admin
-admin
 administrators
 api
 app
-arquivos
+archives
 backup
-batepapo
 beta
 bkp
 blog
@@ -35,7 +32,6 @@ forum
 ftp
 ftpadmin
 gallery
-gov
 gov
 host
 host2
@@ -66,7 +62,6 @@ pass
 passwd
 password
 photos
-portal
 proxy
 pt
 qwerty
