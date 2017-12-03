@@ -1,8 +1,12 @@
 # FINDmyURL
+
+![bruteforce](https://img.shields.io/badge/brute-force-brightgreen.svg)
+
+
 Analyze *HTTP requests* based on a *wordlist* and discovers *directories*, *files* and *subdomains* within the requested domain.
 Based in [Ricardo Longatto's](https://github.com/ricardolongatto) video lesson.
 
-![Screenshot_1](https://i.imgur.com/OU7W0td.png)
+![Screenshot](https://i.imgur.com/OU7W0td.png)
 
 # Instructions:
 To use that, just open your terminal `(CTRL + ALT + T)` and download it:
