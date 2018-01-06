@@ -3,9 +3,16 @@ sudo apt-get install curl
 clear
 
 #colors
+red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
 
+if [ "$1" == "" ]
+then
+echo "[x] ${red}Incorrect syntax${reset} [x]"
+echo "[x] ${green}How to use:${reset} $0 www.example.com"
+sleep 1
+else
 echo "[x] ${green}FIND my URL${reset} [x]"
 sleep 1
 echo "[x] Installing dependencies..."
@@ -40,3 +47,4 @@ for word in $(cat wordlist.txt) #cat wordlist
 				echo "I found: http://${green}$word${reset}.$1"
 		fi
 	done
+fi
